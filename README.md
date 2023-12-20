@@ -357,3 +357,5 @@ Bon, à présent, il est temps de vous expliquer les namespace PHP (vous allez d
   - `intval()`
   - `floatval()`
   - `boolval()`
+#   t p - s a e - p h p - t o d o - m v c  
+ 
