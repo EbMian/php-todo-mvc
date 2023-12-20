@@ -29,7 +29,7 @@ class MemoryTaskService implements TaskServiceInterface {
         ->setCompleted( $i % 2 === 0 )
         ->setCreatedAt( "2022-10-2" . $i % 10 . "T16:53:44" )
         ->setUpdatedAt("2022-10-24T16:53:44" )
-        ->setCompleted( "2022-10-24T16:53:44" );
+        ->setCompletedAt( "2022-10-24T16:53:44" );
     }
   }
   
