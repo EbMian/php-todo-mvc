@@ -4,6 +4,9 @@
  * @var string $orderBy
  * @var bool $hideCompleted
  */
+
+//  var_dump($search, $orderBy, $hideCompleted);
+//  die();
 ?>
 <form method="get" class="flex-1 flex flex-col space-y-4">
   <!-- Recherche -->
@@ -14,7 +17,8 @@
       placeholder="Rechercher une tâche..."
       name="search"
       class="appearance-none block w-full bg-slate-100 text-slate-700 border border-slate-100 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-slate-400"
-    />
+      value="<?= $search ?>"
+      />
   </label>
   
   <!-- Order By -->
@@ -22,6 +26,7 @@
     <label for="order-by" class="text-xs uppercase text-slate-400 font-bold">Trier par</label>
     <div class="relative">
       <select id="order-by" name="order-by" class="block appearance-none w-full bg-slate-100 text-slate-700 border border-slate-100 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-slate-400">
+        
         <option disabled>
           Sélectionner une option
         </option>
